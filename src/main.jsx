@@ -12,7 +12,7 @@ import Quotes from "./pages/admin/Quotes/Quotes.jsx";
 
 // Define the admin routes
 const AdminRoutes = (
-    <Route path="/admin" element={<AdminLayout />}>
+    <Route path="/" element={<AdminLayout />}>
         <Route path="" element={<Quotes />} />
     </Route>
 );
